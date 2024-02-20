@@ -84,7 +84,7 @@ def on_message(message, data):
 
 script.on('message', on_message)
 
-rpc = script.exports
+rpc = script.exports_sync
 
 
 ##### Flask Part
